@@ -1,0 +1,397 @@
+CompVar,Company,Variety,SeedTreatment,Trait,Value,Location,Region
+AgriMAXX_444,AgriMAXX,444,C,yield,96.16,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,yield,107.56,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,yield,97.3,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,yield,97.21,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,yield,107.46,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,yield,90.96,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,yield,104.29,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,yield,100.61,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,yield,105.69,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,yield,89.4,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,yield,93.17,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,yield,97.21,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,yield,106.88,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,yield,100.55,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,yield,103.73,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,yield,102.49,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,yield,102.68,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,yield,92.36,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,yield,93.76,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,yield,97.99,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,yield,96.21,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,yield,101.65,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,yield,109.25,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,yield,112.27,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,yield,107.39,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,yield,98.08,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,yield,100.28,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,yield,88.7,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,yield,106.68,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,yield,94.7,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,yield,89.89,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,yield,105.99,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,yield,99.82,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,yield,98.87,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,yield,100.41,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,yield,85.85,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,yield,102.02,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,yield,94.1,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,yield,97.94,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,yield,111.45,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,yield,98.17,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,yield,109.65,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,yield,105.74,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,yield,104.28,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,yield,108.07,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,yield,104.14,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,yield,84.43,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,yield,102.76,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,yield,92.01,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,yield,102.52,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,yield,102.59,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,yield,103.4,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,yield,99.42,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,yield,105.96,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,yield,113.16,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,yield,82.34,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,yield,106.8,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,yield,97.84,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,yield,111.32,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,yield,105.61,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,yield,106.57,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,yield,83,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,yield,90.16,Elkville,SIL
+USG_3329,USG,3329,G,yield,101.82,Elkville,SIL
+USG_3404,USG,3404,G,yield,106.25,Elkville,SIL
+USG_3536,USG,3536,G,yield,95.36,Elkville,SIL
+AgriMAXX_444,AgriMAXX,444,C,yield_rank,50,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,yield_rank,8,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,yield_rank,46,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,yield_rank,47,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,yield_rank,9,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,yield_rank,58,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,yield_rank,21,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,yield_rank,34,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,yield_rank,19,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,yield_rank,61,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,yield_rank,55,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,yield_rank,47,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,yield_rank,11,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,yield_rank,35,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,yield_rank,24,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,yield_rank,30,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,yield_rank,27,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,yield_rank,56,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,yield_rank,54,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,yield_rank,43,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,yield_rank,49,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,yield_rank,33,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,yield_rank,6,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,yield_rank,2,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,yield_rank,10,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,yield_rank,42,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,yield_rank,37,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,yield_rank,62,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,yield_rank,13,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,yield_rank,52,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,yield_rank,60,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,yield_rank,16,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,yield_rank,38,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,yield_rank,40,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,yield_rank,36,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,yield_rank,63,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,yield_rank,31,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,yield_rank,53,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,yield_rank,44,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,yield_rank,3,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,yield_rank,41,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,yield_rank,5,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,yield_rank,18,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,yield_rank,22,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,yield_rank,7,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,yield_rank,23,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,yield_rank,64,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,yield_rank,26,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,yield_rank,57,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,yield_rank,29,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,yield_rank,28,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,yield_rank,25,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,yield_rank,39,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,yield_rank,17,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,yield_rank,1,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,yield_rank,66,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,yield_rank,12,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,yield_rank,45,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,yield_rank,4,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,yield_rank,20,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,yield_rank,14,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,yield_rank,65,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,yield_rank,59,Elkville,SIL
+USG_3329,USG,3329,G,yield_rank,32,Elkville,SIL
+USG_3404,USG,3404,G,yield_rank,15,Elkville,SIL
+USG_3536,USG,3536,G,yield_rank,51,Elkville,SIL
+AgriMAXX_444,AgriMAXX,444,C,testweight,58.33,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,testweight,59.25,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,testweight,55.93,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,testweight,57.7,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,testweight,57.33,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,testweight,59,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,testweight,58.17,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,testweight,56.93,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,testweight,56.63,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,testweight,58.9,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,testweight,55.1,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,testweight,60.93,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,testweight,55.25,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,testweight,58.47,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,testweight,56.7,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,testweight,59.95,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,testweight,58.8,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,testweight,57.83,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,testweight,58.27,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,testweight,57.5,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,testweight,57.87,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,testweight,59.57,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,testweight,56.9,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,testweight,58.37,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,testweight,58.9,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,testweight,59.77,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,testweight,55.03,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,testweight,55.6,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,testweight,59,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,testweight,55.6,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,testweight,59.47,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,testweight,59.03,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,testweight,60.2,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,testweight,55.97,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,testweight,59.33,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,testweight,57.37,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,testweight,58.37,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,testweight,58.57,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,testweight,54.73,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,testweight,59.5,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,testweight,59.9,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,testweight,57.7,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,testweight,57.73,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,testweight,57.6,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,testweight,59.27,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,testweight,59.97,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,testweight,59.7,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,testweight,53.23,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,testweight,60.45,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,testweight,59.77,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,testweight,59.15,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,testweight,57.43,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,testweight,57.65,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,testweight,60.23,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,testweight,57,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,testweight,57.93,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,testweight,56.83,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,testweight,58.27,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,testweight,58.77,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,testweight,55.53,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,testweight,57.5,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,testweight,58.77,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,testweight,57.87,Elkville,SIL
+USG_3329,USG,3329,G,testweight,58.77,Elkville,SIL
+USG_3404,USG,3404,G,testweight,56.25,Elkville,SIL
+USG_3536,USG,3536,G,testweight,57.4,Elkville,SIL
+AgriMAXX_444,AgriMAXX,444,C,height,32,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,height,32,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,height,31,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,height,33,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,height,32,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,height,33,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,height,33,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,height,33,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,height,29,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,height,35,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,height,33,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,height,33,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,height,30,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,height,34,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,height,32,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,height,34,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,height,33,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,height,31,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,height,32,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,height,34,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,height,33,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,height,35,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,height,31,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,height,32,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,height,31,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,height,32,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,height,31,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,height,32,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,height,33,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,height,33,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,height,30,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,height,34,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,height,35,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,height,31,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,height,29,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,height,31,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,height,32,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,height,31,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,height,31,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,height,32,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,height,32,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,height,32,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,height,33,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,height,33,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,height,34,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,height,33,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,height,32,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,height,35,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,height,29,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,height,33,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,height,33,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,height,35,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,height,30,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,height,33,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,height,32,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,height,32,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,height,32,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,height,32,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,height,33,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,height,29,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,height,32,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,height,30,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,height,32,Elkville,SIL
+USG_3329,USG,3329,G,height,33,Elkville,SIL
+USG_3404,USG,3404,G,height,32,Elkville,SIL
+USG_3536,USG,3536,G,height,33,Elkville,SIL
+AgriMAXX_444,AgriMAXX,444,C,yield_avg_2yr,101.197,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,yield_avg_2yr,107.418,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,yield_avg_2yr,97.22,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,yield_avg_2yr,95.535,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,yield_avg_2yr,105.142,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,yield_avg_2yr,95.668,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,yield_avg_2yr,106.867,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,yield_avg_2yr,,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,yield_avg_2yr,,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,yield_avg_2yr,,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,yield_avg_2yr,,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,yield_avg_2yr,,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,yield_avg_2yr,107.732,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,yield_avg_2yr,97.767,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,yield_avg_2yr,,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,yield_avg_2yr,,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,yield_avg_2yr,,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,yield_avg_2yr,99.4,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,yield_avg_2yr,100.605,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,yield_avg_2yr,,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,yield_avg_2yr,97.953,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,yield_avg_2yr,,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,yield_avg_2yr,110.938,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,yield_avg_2yr,111.723,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,yield_avg_2yr,103.49,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,yield_avg_2yr,99.487,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,yield_avg_2yr,98.32,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,yield_avg_2yr,92.905,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,yield_avg_2yr,,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,yield_avg_2yr,,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,yield_avg_2yr,,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,yield_avg_2yr,,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,yield_avg_2yr,,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,yield_avg_2yr,,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,yield_avg_2yr,,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,yield_avg_2yr,,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,yield_avg_2yr,,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,yield_avg_2yr,,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,yield_avg_2yr,,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,yield_avg_2yr,107.802,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,yield_avg_2yr,95.682,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,yield_avg_2yr,104.567,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,yield_avg_2yr,105.892,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,yield_avg_2yr,,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,yield_avg_2yr,,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,yield_avg_2yr,101.618,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,yield_avg_2yr,89.782,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,yield_avg_2yr,,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,yield_avg_2yr,102.24,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,yield_avg_2yr,97.118,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,yield_avg_2yr,101.327,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,yield_avg_2yr,102.178,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,yield_avg_2yr,,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,yield_avg_2yr,,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,yield_avg_2yr,,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,yield_avg_2yr,90.753,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,yield_avg_2yr,105.015,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,yield_avg_2yr,,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,yield_avg_2yr,107.238,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,yield_avg_2yr,106.847,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,yield_avg_2yr,102.793,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,yield_avg_2yr,,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,yield_avg_2yr,,Elkville,SIL
+USG_3329,USG,3329,G,yield_avg_2yr,99.827,Elkville,SIL
+USG_3404,USG,3404,G,yield_avg_2yr,103.93,Elkville,SIL
+USG_3536,USG,3536,G,yield_avg_2yr,,Elkville,SIL
+AgriMAXX_444,AgriMAXX,444,C,yield_avg_3yr,104.201,Elkville,SIL
+AgriMAXX_454,AgriMAXX,454,C,yield_avg_3yr,111.166,Elkville,SIL
+AgriMAXX_463,AgriMAXX,463,C,yield_avg_3yr,103.48,Elkville,SIL
+AgriMAXX_473,AgriMAXX,473,C,yield_avg_3yr,100.081,Elkville,SIL
+AgriMAXX_475,AgriMAXX,475,C,yield_avg_3yr,101.043,Elkville,SIL
+AgriMAXX_485,AgriMAXX,485,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_486,AgriMAXX,486,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_495,AgriMAXX,495,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_Exp 1902,AgriMAXX,Exp 1902,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_Exp 1905,AgriMAXX,Exp 1905,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_Exp 1906,AgriMAXX,Exp 1906,C,yield_avg_3yr,,Elkville,SIL
+AgriMAXX_Exp 1913,AgriMAXX,Exp 1913,C,yield_avg_3yr,,Elkville,SIL
+AgriPro_SY 100,AgriPro,SY 100,C,yield_avg_3yr,106.242,Elkville,SIL
+AgriPro_SY 547,AgriPro,SY 547,C,yield_avg_3yr,96.976,Elkville,SIL
+AgriPro_SY 576,AgriPro,SY 576,C,yield_avg_3yr,,Elkville,SIL
+AgriPro_SY Viper,AgriPro,SY Viper,C,yield_avg_3yr,,Elkville,SIL
+BioTown Seeds_Diener 491W,BioTown Seeds,Diener 491W,NA,yield_avg_3yr,,Elkville,SIL
+BioTown Seeds_Diener 497W,BioTown Seeds,Diener 497W,NA,yield_avg_3yr,,Elkville,SIL
+BioTown Seeds_Diener D510W,BioTown Seeds,Diener D510W,NA,yield_avg_3yr,107.587,Elkville,SIL
+BioTown Seeds_Diener XW1902W,BioTown Seeds,Diener XW1902W,NA,yield_avg_3yr,,Elkville,SIL
+Croplan_CP8550,Croplan,CP8550,G,yield_avg_3yr,100.534,Elkville,SIL
+Croplan_CP8800,Croplan,CP8800,G,yield_avg_3yr,,Elkville,SIL
+Croplan_CP9415,Croplan,CP9415,G,yield_avg_3yr,108.607,Elkville,SIL
+Croplan_CP9606,Croplan,CP9606,G,yield_avg_3yr,114.541,Elkville,SIL
+Dyna-Gro_9522,Dyna-Gro,9522,G,yield_avg_3yr,107.966,Elkville,SIL
+Dyna-Gro_9701,Dyna-Gro,9701,G,yield_avg_3yr,98.263,Elkville,SIL
+Dyna-Gro_9750,Dyna-Gro,9750,G,yield_avg_3yr,102.743,Elkville,SIL
+Dyna-Gro_9862,Dyna-Gro,9862,G,yield_avg_3yr,101.023,Elkville,SIL
+Dyna-Gro_9932,Dyna-Gro,9932,G,yield_avg_3yr,,Elkville,SIL
+Dyna-Gro_9941,Dyna-Gro,9941,G,yield_avg_3yr,,Elkville,SIL
+Dyna-Gro_9980,Dyna-Gro,9980,G,yield_avg_3yr,,Elkville,SIL
+Dyna-Gro_WX18416,Dyna-Gro,WX18416,G,yield_avg_3yr,,Elkville,SIL
+Dyna-Gro_WX19713,Dyna-Gro,WX19713,G,yield_avg_3yr,,Elkville,SIL
+Dyna-Gro_WX19714,Dyna-Gro,WX19714,G,yield_avg_3yr,,Elkville,SIL
+Go Wheat_2058,Go Wheat,2058,C,yield_avg_3yr,,Elkville,SIL
+Go Wheat_EXP18-1,Go Wheat,EXP18-1,C,yield_avg_3yr,,Elkville,SIL
+Go Wheat_EXP18-2,Go Wheat,EXP18-2,C,yield_avg_3yr,,Elkville,SIL
+GROWMARK_FS 599,GROWMARK,FS 599,C,yield_avg_3yr,,Elkville,SIL
+GROWMARK_FS 601,GROWMARK,FS 601,C,yield_avg_3yr,,Elkville,SIL
+GROWMARK_FS 603,GROWMARK,FS 603,C,yield_avg_3yr,,Elkville,SIL
+GROWMARK_FS 604,GROWMARK,FS 604,C,yield_avg_3yr,99.799,Elkville,SIL
+GROWMARK_FS 615,GROWMARK,FS 615,C,yield_avg_3yr,106.957,Elkville,SIL
+GROWMARK_FS 624,GROWMARK,FS 624,C,yield_avg_3yr,105.673,Elkville,SIL
+GROWMARK_WX19A,GROWMARK,WX19A,C,yield_avg_3yr,,Elkville,SIL
+GROWMARK_WX19B,GROWMARK,WX19B,C,yield_avg_3yr,,Elkville,SIL
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,NA,yield_avg_3yr,102.472,Elkville,SIL
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,NA,yield_avg_3yr,95.38,Elkville,SIL
+Hoffman Seed_H7W19,Hoffman Seed,H7W19,NA,yield_avg_3yr,,Elkville,SIL
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,NA,yield_avg_3yr,,Elkville,SIL
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,yield_avg_3yr,99.41,Elkville,SIL
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,yield_avg_3yr,95.999,Elkville,SIL
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,yield_avg_3yr,,Elkville,SIL
+KWS Cereals_KWS19X03,KWS Cereals,KWS19X03,C,yield_avg_3yr,,Elkville,SIL
+KWS Cereals_KWS19X07,KWS Cereals,KWS19X07,C,yield_avg_3yr,,Elkville,SIL
+KWS Cereals_KWS19X09,KWS Cereals,KWS19X09,C,yield_avg_3yr,,Elkville,SIL
+LCS_AMMO,LCS,AMMO,NA,yield_avg_3yr,,Elkville,SIL
+Limagrain_L11548,Limagrain,L11548,G,yield_avg_3yr,,Elkville,SIL
+Limagrain_L11713,Limagrain,L11713,G,yield_avg_3yr,,Elkville,SIL
+Pioneer_25R61,Pioneer,25R61,C,yield_avg_3yr,105.896,Elkville,SIL
+Pioneer_25R74,Pioneer,25R74,C,yield_avg_3yr,104.484,Elkville,SIL
+Pioneer_25R77,Pioneer,25R77,C,yield_avg_3yr,101.987,Elkville,SIL
+ProHarvest_286,ProHarvest,286,G,yield_avg_3yr,,Elkville,SIL
+ProHarvest_317,ProHarvest,317,G,yield_avg_3yr,,Elkville,SIL
+USG_3329,USG,3329,G,yield_avg_3yr,,Elkville,SIL
+USG_3404,USG,3404,G,yield_avg_3yr,104.978,Elkville,SIL
+USG_3536,USG,3536,G,yield_avg_3yr,,Elkville,SIL

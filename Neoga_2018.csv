@@ -1,0 +1,385 @@
+CompVar,Company,Variety,SeedTreatment,Location,Trait,Value
+AgriMAXX_444,AgriMAXX,444,C,Neoga,yield,80.46
+AgriMAXX_446,AgriMAXX,446,C,Neoga,yield,85.11
+AgriMAXX_454,AgriMAXX,454,C,Neoga,yield,89.49
+AgriMAXX_463,AgriMAXX,463,C,Neoga,yield,80.62
+AgriMAXX_473,AgriMAXX,473,C,Neoga,yield,83.72
+AgriMAXX_475,AgriMAXX,475,C,Neoga,yield,89.26
+AgriMAXX_480,AgriMAXX,480,C,Neoga,yield,80.25
+AgriMAXX_485,AgriMAXX,485,C,Neoga,yield,71.84
+AgriMAXX_486,AgriMAXX,486,C,Neoga,yield,78.13
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,yield,85.6
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,yield,89.18
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,yield,81.31
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,yield,78.28
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,yield,84.11
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,yield,71.39
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,yield,86.65
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,yield,84.98
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,yield,78.63
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,yield,91.04
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,yield,88.65
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,yield,81.96
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,yield,89.48
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,yield,85.06
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,yield,86.31
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,yield,80.21
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,yield,80.63
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,yield,76.31
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,yield,87.64
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,yield,86.61
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,yield,82.13
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,yield,83.99
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,yield,83.64
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,yield,87.43
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,yield,88.55
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,yield,85.36
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,yield,83.52
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,yield,88.55
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,yield,80.72
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,yield,84.53
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,yield,79.19
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,yield,73.7
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,yield,97.15
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,yield,76.48
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,yield,78.33
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,yield,89.85
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,yield,94.09
+LCS_AMMO,LCS,AMMO,,Neoga,yield,72.76
+Limagrain_L11548,Limagrain,L11548,C,Neoga,yield,90.77
+Limagrain_L11549,Limagrain,L11549,C,Neoga,yield,83.98
+Limagrain_L11617,Limagrain,L11617,C,Neoga,yield,77.09
+Limagrain_L11719,Limagrain,L11719,C,Neoga,yield,80.85
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,yield,78.59
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,yield,49.54
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,yield,79.82
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,yield,80.37
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,yield,76.56
+USG_3118,USG,3118,C,Neoga,yield,71.13
+USG_3197,USG,3197,C,Neoga,yield,81.44
+USG_3228,USG,3228,C,Neoga,yield,77.87
+USG_3329,USG,3329,C,Neoga,yield,85.33
+USG_3404,USG,3404,C,Neoga,yield,88.4
+USG_3448,USG,3448,C,Neoga,yield,88
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,yield,87.63
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,yield,82.08
+AgriMAXX_444,AgriMAXX,444,C,Neoga,rank,43
+AgriMAXX_446,AgriMAXX,446,C,Neoga,rank,24
+AgriMAXX_454,AgriMAXX,454,C,Neoga,rank,6
+AgriMAXX_463,AgriMAXX,463,C,Neoga,rank,42
+AgriMAXX_473,AgriMAXX,473,C,Neoga,rank,31
+AgriMAXX_475,AgriMAXX,475,C,Neoga,rank,8
+AgriMAXX_480,AgriMAXX,480,C,Neoga,rank,45
+AgriMAXX_485,AgriMAXX,485,C,Neoga,rank,61
+AgriMAXX_486,AgriMAXX,486,C,Neoga,rank,53
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,rank,21
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,rank,9
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,rank,38
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,rank,52
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,rank,28
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,rank,62
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,rank,18
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,rank,26
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,rank,49
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,rank,3
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,rank,10
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,rank,36
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,rank,7
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,rank,25
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,rank,20
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,rank,46
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,rank,41
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,rank,58
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,rank,15
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,rank,19
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,rank,34
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,rank,29
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,rank,32
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,rank,17
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,rank,11
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,rank,22
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,rank,33
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,rank,11
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,rank,40
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,rank,27
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,rank,48
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,rank,59
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,rank,1
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,rank,57
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,rank,51
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,rank,5
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,rank,2
+LCS_AMMO,LCS,AMMO,,Neoga,rank,60
+Limagrain_L11548,Limagrain,L11548,C,Neoga,rank,4
+Limagrain_L11549,Limagrain,L11549,C,Neoga,rank,30
+Limagrain_L11617,Limagrain,L11617,C,Neoga,rank,55
+Limagrain_L11719,Limagrain,L11719,C,Neoga,rank,39
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,rank,50
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,rank,64
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,rank,47
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,rank,44
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,rank,56
+USG_3118,USG,3118,C,Neoga,rank,63
+USG_3197,USG,3197,C,Neoga,rank,37
+USG_3228,USG,3228,C,Neoga,rank,54
+USG_3329,USG,3329,C,Neoga,rank,23
+USG_3404,USG,3404,C,Neoga,rank,13
+USG_3448,USG,3448,C,Neoga,rank,14
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,rank,16
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,rank,35
+AgriMAXX_444,AgriMAXX,444,C,Neoga,testweight,55.36
+AgriMAXX_446,AgriMAXX,446,C,Neoga,testweight,59.13
+AgriMAXX_454,AgriMAXX,454,C,Neoga,testweight,55.67
+AgriMAXX_463,AgriMAXX,463,C,Neoga,testweight,56.54
+AgriMAXX_473,AgriMAXX,473,C,Neoga,testweight,57.27
+AgriMAXX_475,AgriMAXX,475,C,Neoga,testweight,60.54
+AgriMAXX_480,AgriMAXX,480,C,Neoga,testweight,59.7
+AgriMAXX_485,AgriMAXX,485,C,Neoga,testweight,58.37
+AgriMAXX_486,AgriMAXX,486,C,Neoga,testweight,60.63
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,testweight,54.73
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,testweight,58.27
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,testweight,55.07
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,testweight,60.03
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,testweight,55.63
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,testweight,56.17
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,testweight,56.77
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,testweight,61.2
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,testweight,58.07
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,testweight,57.03
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,testweight,59.03
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,testweight,57.4
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,testweight,56.2
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,testweight,56.87
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,testweight,57.67
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,testweight,54.97
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,testweight,55.17
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,testweight,55.8
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,testweight,55.57
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,testweight,59.1
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,testweight,59.67
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,testweight,59.27
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,testweight,57.83
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,testweight,55.9
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,testweight,58.57
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,testweight,57.77
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,testweight,55.73
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,testweight,58.3
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,testweight,59.67
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,testweight,59.8
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,testweight,60.93
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,testweight,55.4
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,testweight,58.17
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,testweight,60.9
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,testweight,58.3
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,testweight,56.3
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,testweight,58.88
+LCS_AMMO,LCS,AMMO,,Neoga,testweight,57.87
+Limagrain_L11548,Limagrain,L11548,C,Neoga,testweight,54.91
+Limagrain_L11549,Limagrain,L11549,C,Neoga,testweight,58.83
+Limagrain_L11617,Limagrain,L11617,C,Neoga,testweight,58.58
+Limagrain_L11719,Limagrain,L11719,C,Neoga,testweight,56.73
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,testweight,55.63
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,testweight,59.83
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,testweight,55.33
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,testweight,57.83
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,testweight,57.07
+USG_3118,USG,3118,C,Neoga,testweight,58.63
+USG_3197,USG,3197,C,Neoga,testweight,53.57
+USG_3228,USG,3228,C,Neoga,testweight,55.07
+USG_3329,USG,3329,C,Neoga,testweight,56.13
+USG_3404,USG,3404,C,Neoga,testweight,57.83
+USG_3448,USG,3448,C,Neoga,testweight,59.78
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,testweight,57.73
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,testweight,59.6
+AgriMAXX_444,AgriMAXX,444,C,Neoga,height,33
+AgriMAXX_446,AgriMAXX,446,C,Neoga,height,32
+AgriMAXX_454,AgriMAXX,454,C,Neoga,height,36
+AgriMAXX_463,AgriMAXX,463,C,Neoga,height,33
+AgriMAXX_473,AgriMAXX,473,C,Neoga,height,35
+AgriMAXX_475,AgriMAXX,475,C,Neoga,height,33
+AgriMAXX_480,AgriMAXX,480,C,Neoga,height,34
+AgriMAXX_485,AgriMAXX,485,C,Neoga,height,32
+AgriMAXX_486,AgriMAXX,486,C,Neoga,height,35
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,height,34
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,height,31
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,height,32
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,height,35
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,height,34
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,height,33
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,height,33
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,height,32
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,height,33
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,height,36
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,height,36
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,height,33
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,height,33
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,height,32
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,height,36
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,height,34
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,height,36
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,height,34
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,height,34
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,height,31
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,height,32
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,height,32
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,height,35
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,height,33
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,height,35
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,height,34
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,height,33
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,height,32
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,height,34
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,height,34
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,height,30
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,height,33
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,height,34
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,height,33
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,height,38
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,height,35
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,height,34
+LCS_AMMO,LCS,AMMO,,Neoga,height,30
+Limagrain_L11548,Limagrain,L11548,C,Neoga,height,35
+Limagrain_L11549,Limagrain,L11549,C,Neoga,height,33
+Limagrain_L11617,Limagrain,L11617,C,Neoga,height,30
+Limagrain_L11719,Limagrain,L11719,C,Neoga,height,30
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,height,35
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,height,36
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,height,35
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,height,32
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,height,31
+USG_3118,USG,3118,C,Neoga,height,31
+USG_3197,USG,3197,C,Neoga,height,34
+USG_3228,USG,3228,C,Neoga,height,34
+USG_3329,USG,3329,C,Neoga,height,34
+USG_3404,USG,3404,C,Neoga,height,33
+USG_3448,USG,3448,C,Neoga,height,32
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,height,34
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,height,33
+AgriMAXX_444,AgriMAXX,444,C,Neoga,TwoYrAve,96.997
+AgriMAXX_446,AgriMAXX,446,C,Neoga,TwoYrAve,100.19
+AgriMAXX_454,AgriMAXX,454,C,Neoga,TwoYrAve,98.43
+AgriMAXX_463,AgriMAXX,463,C,Neoga,TwoYrAve,100.927
+AgriMAXX_473,AgriMAXX,473,C,Neoga,TwoYrAve,102.777
+AgriMAXX_475,AgriMAXX,475,C,Neoga,TwoYrAve,98.073
+AgriMAXX_480,AgriMAXX,480,C,Neoga,TwoYrAve,NA
+AgriMAXX_485,AgriMAXX,485,C,Neoga,TwoYrAve,NA
+AgriMAXX_486,AgriMAXX,486,C,Neoga,TwoYrAve,NA
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,TwoYrAve,NA
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,TwoYrAve,NA
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,TwoYrAve,96.578
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,TwoYrAve,96.66
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,TwoYrAve,NA
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,TwoYrAve,89.873
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,TwoYrAve,NA
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,TwoYrAve,NA
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,TwoYrAve,96.905
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,TwoYrAve,NA
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,TwoYrAve,104.292
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,TwoYrAve,100.315
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,TwoYrAve,95.12
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,TwoYrAve,101.505
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,TwoYrAve,101.97
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,TwoYrAve,98.608
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,TwoYrAve,NA
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,TwoYrAve,93.165
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,TwoYrAve,NA
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,TwoYrAve,NA
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,TwoYrAve,NA
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,TwoYrAve,NA
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,TwoYrAve,82.36
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,TwoYrAve,102.183
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,TwoYrAve,100.595
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,TwoYrAve,91.097
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,TwoYrAve,NA
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,TwoYrAve,NA
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,TwoYrAve,NA
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,TwoYrAve,94.128
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,TwoYrAve,93.862
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,TwoYrAve,88.733
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,TwoYrAve,NA
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,TwoYrAve,NA
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,TwoYrAve,89.947
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,TwoYrAve,97.262
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,TwoYrAve,NA
+LCS_AMMO,LCS,AMMO,,Neoga,TwoYrAve,NA
+Limagrain_L11548,Limagrain,L11548,C,Neoga,TwoYrAve,NA
+Limagrain_L11549,Limagrain,L11549,C,Neoga,TwoYrAve,NA
+Limagrain_L11617,Limagrain,L11617,C,Neoga,TwoYrAve,NA
+Limagrain_L11719,Limagrain,L11719,C,Neoga,TwoYrAve,NA
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,TwoYrAve,90.583
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,TwoYrAve,NA
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,TwoYrAve,96.083
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,TwoYrAve,99.733
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,TwoYrAve,93.943
+USG_3118,USG,3118,C,Neoga,TwoYrAve,NA
+USG_3197,USG,3197,C,Neoga,TwoYrAve,96.002
+USG_3228,USG,3228,C,Neoga,TwoYrAve,96.8
+USG_3329,USG,3329,C,Neoga,TwoYrAve,NA
+USG_3404,USG,3404,C,Neoga,TwoYrAve,98.715
+USG_3448,USG,3448,C,Neoga,TwoYrAve,104.132
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,TwoYrAve,97.325
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,TwoYrAve,94.5
+AgriMAXX_444,AgriMAXX,444,C,Neoga,ThreeYrAve,99.183
+AgriMAXX_446,AgriMAXX,446,C,Neoga,ThreeYrAve,99.247
+AgriMAXX_454,AgriMAXX,454,C,Neoga,ThreeYrAve,83.694
+AgriMAXX_463,AgriMAXX,463,C,Neoga,ThreeYrAve,102.103
+AgriMAXX_473,AgriMAXX,473,C,Neoga,ThreeYrAve,NA
+AgriMAXX_475,AgriMAXX,475,C,Neoga,ThreeYrAve,NA
+AgriMAXX_480,AgriMAXX,480,C,Neoga,ThreeYrAve,NA
+AgriMAXX_485,AgriMAXX,485,C,Neoga,ThreeYrAve,NA
+AgriMAXX_486,AgriMAXX,486,C,Neoga,ThreeYrAve,NA
+AgriMAXX_Exp 1884,AgriMAXX,Exp 1884,C,Neoga,ThreeYrAve,NA
+AgriMAXX_Exp 1892,AgriMAXX,Exp 1892,C,Neoga,ThreeYrAve,NA
+AgriPro_SY 100,AgriPro,SY 100,C,Neoga,ThreeYrAve,NA
+AgriPro_SY 547,AgriPro,SY 547,C,Neoga,ThreeYrAve,93.311
+Beck's Hybrids_Beck 726,Beck's Hybrids,Beck 726,E,Neoga,ThreeYrAve,NA
+BioTown Seeds_D496W,BioTown Seeds,D496W,C,Neoga,ThreeYrAve,92.26
+BioTown Seeds_D497W,BioTown Seeds,D497W,C,Neoga,ThreeYrAve,NA
+BioTown Seeds_D498W,BioTown Seeds,D498W,C,Neoga,ThreeYrAve,NA
+BioTown Seeds_D510W,BioTown Seeds,D510W,C,Neoga,ThreeYrAve,NA
+BioTown Seeds_XW 1802,BioTown Seeds,XW 1802,C,Neoga,ThreeYrAve,NA
+Croplan_SRW 8550,Croplan,SRW 8550,G,Neoga,ThreeYrAve,NA
+Croplan_SRW 9415,Croplan,SRW 9415,G,Neoga,ThreeYrAve,NA
+Croplan_SRW 9606,Croplan,SRW 9606,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_9522,Dyna-Gro,9522,G,Neoga,ThreeYrAve,103.807
+Dyna-Gro_9701,Dyna-Gro,9701,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_9750,Dyna-Gro,9750,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_9811,Dyna-Gro,9811,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_9862,Dyna-Gro,9862,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_WX17775,Dyna-Gro,WX17775,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_WX17778,Dyna-Gro,WX17778,G,Neoga,ThreeYrAve,NA
+Dyna-Gro_WX18724,Dyna-Gro,WX18724,G,Neoga,ThreeYrAve,NA
+GROWMARK_FS 603,GROWMARK,FS 603,C,Neoga,ThreeYrAve,NA
+GROWMARK_FS 604,GROWMARK,FS 604,C,Neoga,ThreeYrAve,72.344
+GROWMARK_FS 615,GROWMARK,FS 615,C,Neoga,ThreeYrAve,98.403
+GROWMARK_FS 619,GROWMARK,FS 619,C,Neoga,ThreeYrAve,90.766
+GROWMARK_FS 624,GROWMARK,FS 624,C,Neoga,ThreeYrAve,90.797
+GROWMARK_WX18A,GROWMARK,WX18A,C,Neoga,ThreeYrAve,NA
+GROWMARK_WX18B,GROWMARK,WX18B,C,Neoga,ThreeYrAve,NA
+GROWMARK_WX18C,GROWMARK,WX18C,C,Neoga,ThreeYrAve,NA
+Hoffman Seed_H7W15,Hoffman Seed,H7W15,C,Neoga,ThreeYrAve,89.098
+Hoffman Seed_H7W16,Hoffman Seed,H7W16,C,Neoga,ThreeYrAve,NA
+Hoffman Seed_H7W17,Hoffman Seed,H7W17,C,Neoga,ThreeYrAve,NA
+Hoffman Seed_H7W18,Hoffman Seed,H7W18,C,Neoga,ThreeYrAve,NA
+Hoffman Seed_H7W28,Hoffman Seed,H7W28,C,Neoga,ThreeYrAve,NA
+Kitchen Seed Company_KSC 416,Kitchen Seed Company,KSC 416,G,Neoga,ThreeYrAve,NA
+Kitchen Seed Company_KSC 417,Kitchen Seed Company,KSC 417,G,Neoga,ThreeYrAve,NA
+Kitchen Seed Company_KSC 418,Kitchen Seed Company,KSC 418,G,Neoga,ThreeYrAve,NA
+LCS_AMMO,LCS,AMMO,,Neoga,ThreeYrAve,NA
+Limagrain_L11548,Limagrain,L11548,C,Neoga,ThreeYrAve,NA
+Limagrain_L11549,Limagrain,L11549,C,Neoga,ThreeYrAve,NA
+Limagrain_L11617,Limagrain,L11617,C,Neoga,ThreeYrAve,NA
+Limagrain_L11719,Limagrain,L11719,C,Neoga,ThreeYrAve,NA
+Miller Bros Farm and Fert._L214,Miller Bros Farm and Fert.,L214,G,Neoga,ThreeYrAve,NA
+Miller Bros Farm and Fert._L334,Miller Bros Farm and Fert.,L334,U,Neoga,ThreeYrAve,NA
+Pioneer_Pioneer 25R61,Pioneer,Pioneer 25R61,C,Neoga,ThreeYrAve,NA
+Pioneer_Pioneer 25R74,Pioneer,Pioneer 25R74,C,Neoga,ThreeYrAve,NA
+Pioneer_Pioneer 25R77,Pioneer,Pioneer 25R77,C,Neoga,ThreeYrAve,96.527
+USG_3118,USG,3118,C,Neoga,ThreeYrAve,NA
+USG_3197,USG,3197,C,Neoga,ThreeYrAve,84.119
+USG_3228,USG,3228,C,Neoga,ThreeYrAve,NA
+USG_3329,USG,3329,C,Neoga,ThreeYrAve,NA
+USG_3404,USG,3404,C,Neoga,ThreeYrAve,100.118
+USG_3448,USG,3448,C,Neoga,ThreeYrAve,NA
+Virginia Crop Impr. Assoc._Hilliard,Virginia Crop Impr. Assoc.,Hilliard,G,Neoga,ThreeYrAve,95.589
+Virginia Crop Impr. Assoc._VA12W-68,Virginia Crop Impr. Assoc.,VA12W-68,G,Neoga,ThreeYrAve,NA

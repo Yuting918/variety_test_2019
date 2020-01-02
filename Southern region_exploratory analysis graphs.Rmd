@@ -1,0 +1,87 @@
+---
+title: "Southern Region_Exploratory analysis graphs"
+author: "Daljeet Dhaliwal"
+date: "12/8/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(GGally)
+library(tidyr)
+```
+
+```{r}
+South_region <- read.csv("SIL_2019_vt.csv", header=TRUE)
+str(South_region)
+```
+
+## Box plots and Density plots for Southern region
+```{r}
+# Box plot for Yield values 
+ggplot(subset(South_region, Trait == "yield"), aes(x= Location, y=Value)) + 
+    geom_boxplot(fill="tomato", alpha=0.4) + 
+    xlab("Location")+
+  ylab("Yield estimate (bu/acre)")
+
+# Density plot for Yield values
+ggplot(subset(South_region, Trait == "yield"), aes(x=Value, group = Location)) +
+    geom_density(adjust=1.5, fill = "tomato", alpha = 0.6) +
+  facet_grid(~Location)+
+  xlab("Yield estimate (bu/acre)")+
+    theme( legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      axis.ticks.x=element_blank())
+
+# Box plot for testweight values 
+ggplot(subset(South_region, Trait == "testweight"), aes(x= Location, y=Value)) + 
+    geom_boxplot(fill="tomato", alpha=0.4) + 
+    xlab("Location")+
+  ylab("Testweight estimate (lb/bu)")
+
+# Density plot for testweight values
+ggplot(subset(South_region, Trait == "testweight"), aes(x=Value, group = Location)) +
+    geom_density(adjust=1.5, fill = "tomato", alpha = 0.6) +
+  facet_grid(~Location)+
+  xlab("Testweight estimate (lb/bu)")+
+    theme( legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      axis.ticks.x=element_blank())
+```
+
+## Pairs Plots for Traits in Southern Region
+```{r}
+data_wide <- spread(South_region, Trait, Value) # convert data from long form to wide form
+head(data_wide)
+
+ggscatmat(data_wide, columns = 7:8,
+      col="Location", alpha = 0.8)
+```
+
+## box plots for yield by Company
+```{r}
+# box plot
+ggplot(data_wide, aes(x=Company, y=yield)) + 
+    geom_boxplot(fill="tomato", alpha=0.4) +
+  facet_wrap(~Location)+
+    xlab("Company")+
+  ylab("Yield estimate (bu/acre)")+
+  theme(axis.text.x = element_text(angle = 90))+
+  coord_flip()
+```
+
+## Initial linear regression fit evaluation: Diagnostic Plots
+```{r}
+fit.location  <- lm(yield ~ Location, data = data_wide)
+summary(fit.location)
+plot(fit.location) #check model diagnostics
+```
+
+## Initial linear regression fit evaluation: 2D scatterplots + density plots
+```{r}
+ggpairs(data_wide[, c(5,7:8)], aes(color = Location, alpha = 0.4))
+```

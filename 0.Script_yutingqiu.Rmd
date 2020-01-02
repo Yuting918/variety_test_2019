@@ -1,0 +1,356 @@
+---
+title: "yutingq2_final_CDAP"
+author: "Yuting Qiu"
+date: "12/12/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(lme4)
+library(lmerTest)
+library(lsmeans)
+library(reshape2)
+library(dplyr)
+library(ggplot2)
+library(glmnet)
+library(caret)
+library(MASS)
+library(tidyverse)
+
+
+read.table("examFile.csv", sep=",",header= TRUE,na.strings = "NA")->df
+# remove the genotype variable
+df_clean <- df[,1:7]
+
+# replace east with north, replace west with south
+df_clean$Reg <- replace(as.character(df_clean$Reg), df_clean$Reg == "east", "north")
+df_clean$Reg <- replace(as.character(df_clean$Reg), df_clean$Reg == "west", "south")
+```
+
+
+# Obj 1.	Evaluate location effects: 
+## a.	What fraction of the variation observed in yield is attributable to Location specific effects? 
+```{r}
+model1 <- lm(Estimate~Loc, data=df_clean)
+anova(model1) #location effect is significant
+summary(model1)$adj.r.squared #0.7925499
+``` 
+79.25% of the variation observed in the yield is attributable to location specific effect
+
+
+## b.	Which location seems to be the highest yield location?
+```{r}
+summary(model1)
+#Coefficients:
+#                  Estimate Std. Error t value Pr(>|t|)    
+#(Intercept)        76.7404     0.6190  123.97   <2e-16 ***
+#LocElkville_2019   24.4245     0.8755   27.90   <2e-16 ***
+#LocHampshire_2019  34.0239     0.9080   37.47   <2e-16 ***
+#LocNeoga_2018      14.7687     0.8755   16.87   <2e-16 ***
+#LocPerry_2019      14.4606     0.9080   15.93   <2e-16 ***
+#LocUrbana_2018     19.4130     0.9504   20.43   <2e-16 ***
+```
+Hampshire_2019 is the highest yield location.
+
+
+# Obj 2.	Evaluate company/ brand effects: 
+## a.	Which company's varieties seem to perform the best across all regions? 
+## b.	Which company's varieties seem to perform the worst across all regions?
+```{r}
+model2 <- lm(Estimate~Company, df_clean)
+anova(model2)
+summary(model2)
+```
+[Best] Moiner_Seed variaty perform the best across all regions, but the s.e. for this company is large and thus this company doesn't have a significant effect on the yield, thus DeRaedt_Seed can be a good choice
+[Worst] Go_Wheat variaty perform the worst across all regions
+
+
+## c.	Which company's varieties seem to perform the best for each location? 
+## d.	Which company's varieties seem to perform the worst for each location?
+```{r}
+as.data.frame(aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Loc,df_clean$Company),
+          FUN=mean)) -> ag2
+```
+[perform the best]
+* Hampshire_2019	Pioneer
+* Elkville_2019	KWS_Cereals
+* Urbana_2018	Pioneer
+* Perry_2019	Pioneer
+* Neoga_2018	Croplan
+* Belleville_2019	Pioneer
+
+[perfrom the worst]
+* Belleville_2019	ProHarvest
+* Neoga_2018	Miller_Bros_Farm_and_Fert.
+* Elkville_2019	ProHarvest
+* Perry_2019	ProHarvest
+* Urbana_2018	Kratz_Farms
+* Hampshire_2019	Kratz_Farms
+
+
+# Obj 3.	Evaluate variety effects:
+## a.	Which varieties seem to perform the best across all regions? 
+## b.	Which varieties seem to perform the worst across all regions?
+```{r}
+aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Variety),
+          FUN=mean) %>% 
+  as.data.frame() -> ag3.1
+
+```
+Variety DeRaedt_24 performs the best across all regions
+Variety EXP18-1 performs the worst across all regions
+
+
+## c.	Which varieties seem to perform the best for each location? 
+## d.	Which varieties seem to perform the worst for each location?
+
+```{r}
+aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Variety, df_clean$Loc),
+          FUN=mean) %>% 
+  as.data.frame() -> ag3.2
+```
+[varieties perform the best for each location]
+* WX18C	at Urbana_2018	with 108.3 bu/acre
+* 495	at Perry_2019 with	103.7 bu/acre
+* H7W18 at	Neoga_2018 with	105.2 bu/acre 
+* KWS19X03 at	Hampshire_2019	with 125.6 bu/acre
+* KWS19X09 at	Elkville_2019	with 113.5 bu/acre
+* KWS19X07 at	Belleville_2019	with 93.4 bu/acre
+
+[varieties perform the worst for each location]
+* 851 and Lewis_851	at Urbana_2018 with	87.6 bu/acre
+* KF_15334 at	Perry_2019 with	79.4 bu/acre
+* FS_604 at	Neoga_2018 with	79.4 bu/acre
+*	KF_15334	at Hampshire_2019	with 97.0 bu/acre
+*	286	at Elkville_2019	with 83.3 bu/acre
+*	317	at Belleville_2019 with	60.3 bu/acre
+
+
+
+# Obj 4.	Evaluate regional effects( north/south) :
+## a.	How much variation in yield does region explain alone? 
+## b.	How about together with Company? 
+```{r}
+model.4.1 <- lm(Estimate ~ Reg, data = df_clean)
+summary(model.4.1)$adj.r.squared # 0.1623734
+anova(model.4.1)
+
+model.4.2 <- lm(Estimate ~ Reg + Company, data = df_clean)
+anova(model.4.2)
+summary(model.4.2)$adj.r.squared # 0.1910692
+```
+* Region alone explain 16.24% of variation in yield.
+* Together with comapany, 19.1% of variation in yield was explained. 
+
+
+## c.	Which company's varieties seem to perform the best within each region? 
+## d.	Which company's varieties seem to perform the worst within each region?
+```{r}
+library(dplyr)
+as.data.frame(aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Reg,df$Company),
+          FUN=mean)) -> ag4.1
+```
+[company that perform the best within each region]
+* company DeRaedt_Seed at south region
+* company Moiner_Seed at north region
+
+[company that perform the worst within each region]
+* comapny	ProHarvest at south region
+* Miller_Bros_Farm_and_Fert at north region
+
+
+## e.	Which variety is best suited to each region?
+```{r}
+as.data.frame(aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Reg,df$Variety),
+          FUN=mean)) -> ag4.2
+```
+* variety	KWS19X03 best suited to north region 
+* variety	CP9606 best suited to south region
+
+
+## f.	Which variety is best suited to each location?
+```{r}
+as.data.frame(aggregate(x=df_clean$Estimate,
+          by=list(df_clean$Loc,df$Variety),
+          FUN=mean)) -> ag4.3
+```
+* Belleville_2019: variety KWS19X07  
+* Elkville_2019: variety	KWS19X09
+* Hampshire_2019: variety	KWS19X03
+* Neoga_2018: variety	H7W18	
+* Perry_2019: variety	495
+* Urbana_2018: variety WX18C	
+
+
+# Obj 5.	Does the seed treatments have a significant effect on the yield? 
+## a.	Which treatment seems to have the largest positive effect? Is it significant?
+```{r}
+model5.1 <- lm(Estimate ~ SeedTreatment, df_clean)
+anova(model5.1)
+summary(model5.1)
+```
+Seed treatment itself have a signficant positive effect. Treatment C is the largest with signigicant effect.
+
+
+## b.	What fraction of the variation observed in yield is attributable to seed treatments?
+```{r}
+summary(model5.1)$adj.r.squared
+```
+0.85% of the variarion observed in yield is attributable to seed treatment.
+
+
+## c.	Is seed treatment recommended?
+```{r}
+model5.2 <- lm(Estimate ~ Loc + SeedTreatment, df_clean)
+anova(model5.2) 
+summary(model5.2)
+```
+seed treatment is not signifiant any more when look together with other factors, thus there is no need to apply seed treatment
+
+
+
+# Obj 6. Give your best prediction of maximum yield under these best case scenario conditions. 
+## a.	Which location variety combinations should be used to get the maximum yield? 
+```{r}
+# split the data
+df_south <- df_clean[df_clean$Reg=="south",]
+df_north <- df_clean[df_clean$Reg=="north",]
+
+# find the best model 
+fit_int <- lm(Estimate ~ 1, data=df_clean)
+fit_full <- lm(Estimate ~ Company + Loc + Reg + SeedTreatment + Variety, data=df_clean)
+step(fit_int,scope = list(upper = formula(fit_full), lower = formula(fit_int)), direction = 'both')
+
+# fit the best model for each region seperately
+## south
+model.6.south <- lm(Estimate ~ Loc + Variety, data=df_south)
+summary(model.6.south)
+
+best.v.l_1 <- data.frame(
+   Loc = "Elkville_2019",Variety="CP9606"
+)
+best.v.l_2<- data.frame(
+   Loc = "Elkville_2019",Variety="SRW_9606"
+)
+predict(model.6.south, best.v.l_1)
+# 112.0956 
+predict(model.6.south, best.v.l_2)
+# 112.0956 
+
+## north
+model.6.north <- lm(Estimate ~ Loc + Variety, data=df_north)
+summary(model.6.north)
+# Hampshire_2019	VarietyKWS19X03 
+best.v.l_3 <- data.frame(
+   Loc = "Hampshire_2019",Variety="KWS19X03"
+)
+predict(model.6.north, best.v.l_3)
+# 125.6498 
+```
+At location Hampshire_2019 use variety "KWS19X03" can get the best yield prediction
+
+## b.	Is paying a premium for Seed Treatment justified? 
+```{r}
+model.6.south <- lm(Estimate ~ Loc + Variety, data=df_south)
+model.6.south_sd <- lm(Estimate ~ Loc + Variety + SeedTreatment, data=df_south)
+anova(model.6.south, model.6.south_sd)
+
+model.6.north <- lm(Estimate ~ Loc + Variety, data=df_north)
+model.6.north_sd <- lm(Estimate ~ Loc + Variety + SeedTreatment, data=df_north)
+anova(model.6.north, model.6.north_sd)
+```
+No differnce in terms of the efficiency of the model for both south and north region, no need to use seed treatment
+
+## c.	Report the best prediction of maximum yield under these best case scenario conditions for each variety for each region and location.
+```{r}
+# south region (Perry_2019; Belleville_2019; Elkville_2019)
+
+# Elkville_2019
+best.v.l_1 <- data.frame(
+   Loc = "Elkville_2019",Variety="CP9606"
+)
+best.v.l_2<- data.frame(
+   Loc = "Elkville_2019",Variety="KWS19X09"
+)
+predict(model.6.south, best.v.l_1)# 112.0956  # selected by summary
+predict(model.6.south, best.v.l_2)# 106.3485 selected by mean
+ 
+
+# Perry_2019
+best.v.l_4 <- data.frame(
+   Loc = "Perry_2019",Variety="CP9606"
+)
+best.v.l_5<- data.frame(
+   Loc = "Perry_2019",Variety="25R61"
+)
+best.v.l_5.1<- data.frame(
+   Loc = "Perry_2019",Variety="495"
+)
+predict(model.6.south, best.v.l_4) # 102.0142(not show up)  # selected by summary
+predict(model.6.south, best.v.l_5) # 98.59835 the second best variety and also tested in this location 
+predict(model.6.south, best.v.l_5.1) # 96.63376 select by mean
+
+# Belleville_2019
+best.v.l_6 <- data.frame(
+   Loc = "Belleville_2019",Variety="CP9606"
+)
+best.v.l_7<- data.frame(
+   Loc = "Belleville_2019",Variety="KWS19X07"
+)
+predict(model.6.south, best.v.l_6) # 87.67107  # selected by summary
+predict(model.6.south, best.v.l_7) # 82.52397  # selected by mean  
+
+# north region (Hampshire_2019; Urbana_2018; Neoga_2018)
+# Hampshire_2019
+best.v.l_8<- data.frame(
+   Loc = "Hampshire_2019",Variety="KWS19X03"
+)
+predict(model.6.north, best.v.l_8)# 125.6498 selected by summary and mean
+
+
+# Urbana_2018
+best.v.l_9 <- data.frame(
+   Loc = "Urbana_2018",Variety="WX18C"
+)
+best.v.l_10<- data.frame(
+   Loc = "Urbana_2018",Variety="KWS19X03"
+)
+best.v.l_10.1<- data.frame(
+   Loc = "Urbana_2018",Variety="WX18C"
+)
+predict(model.6.north, best.v.l_9)# 101.3564 selected by mean
+predict(model.6.north, best.v.l_10)# 110.6896 selected by summary_not show up
+
+
+# Neoga_2018
+best.v.l_11 <- data.frame(
+   Loc = "Neoga_2018",Variety="H7W18"
+)
+best.v.l_12<- data.frame(
+   Loc = "Neoga_2018",Variety="KWS19X03"
+)
+best.v.l_12.1<- data.frame(
+   Loc = "Neoga_2018",Variety="3404"
+)
+predict(model.6.north, best.v.l_11) #  105.2071 selected by mean
+predict(model.6.north, best.v.l_12) # 105.0126 selected by summary_not show up
+predict(model.6.north, best.v.l_12.1) # 95.73333 as second high by summary
+
+```
+
+* In the north region, at location Hampshire_2019, use variety "KWS19X03" can get the best yield, being 125.65 bu/acre. 
+* In the south region, at location Elkville_2019, use either CP9606 or SRW_9606 can get the maximum yield, being 112.1 bu/acre. 
+
+
+
+

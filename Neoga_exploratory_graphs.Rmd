@@ -1,0 +1,75 @@
+---
+title: "Neoga Exploratory Analysis"
+author: "Taylor"
+date: "12/10/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Packages needed
+```{r}
+library(ggplot2)
+```
+## Read in data
+
+```{r cars}
+
+neoga<-read.csv("Neoga_2018.csv",header=TRUE)
+neoga$Location<-"Neoga"
+str(neoga)
+```
+
+## Graphs needed
+
+# Box Plots and Density Plots Across Locations
+
+
+
+
+##Box Plots and Density Plots by Location
+```{r}
+# Box plot for Yield values for Neoga
+ggplot(neoga, aes(x= Location, y=Yield)) + 
+    geom_boxplot(fill="lightblue") + 
+    labs(x="Location",y="Yield Estimate (bu/ac)")
+# Density plot for Yield values for Hampshire
+ggplot(neoga, aes(x=Yield)) +
+    geom_density(adjust=1.5, fill = "lightblue") +
+  xlab("Yield estimate (bu/ac)")
+```
+##Box Plots and Density Plots by Company
+```{r}
+# Box plot for Yield values for Neoga
+neoga$Company = with(neoga, reorder(Company, Yield, median))
+p<-ggplot(neoga, aes(x= Company, y=Yield)) + 
+    geom_boxplot(fill="lightblue") + 
+    labs(x="Company",y="Yield Estimate (bu/ac)")
+p + theme(axis.text.x = element_text(angle = 45))
+# Density plot for Yield values for Hampshire
+ggplot(neoga, aes(x=Yield, group=Company)) +
+    facet_wrap(~Company)+
+    geom_density(adjust=1.5, fill = "lightblue") +
+  xlab("Yield estimate (bu/ac)")
+```
+
+
+
+## Pairs Plots for within location variation
+
+```{r}
+pairs(neoga[,4:9])
+```
+# Initial linear regression fit evaluation: Diagnostic plots
+```{r}
+fit.company<-lm(Yield~Company, data=neoga)
+summary(fit.company)
+plot(fit.company) #plot diagnostic plots
+```
+# Initial linear regression fit evaluation: curve fitting plot (2D scatter plot + density plot)
+```{r}
+ggpairs(neoga[, c(4:9)])
+```
+

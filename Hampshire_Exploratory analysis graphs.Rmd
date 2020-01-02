@@ -1,0 +1,79 @@
+---
+title: "Hampshire_Exploratory analysis graphs"
+author: "Daljeet Dhaliwal"
+date: "12/7/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(GGally)
+library(tidyr)
+```
+
+```{r}
+hampshire <- read.csv("Hampshire_2019_vt.csv", header=TRUE)
+str(hampshire)
+```
+
+## Box plots and Density plots for Hampshire
+```{r}
+# Box plot for Yield values for Hampshire
+ggplot(subset(hampshire, Trait == "yield"), aes(x= Location, y=Value)) + 
+    geom_boxplot(fill="tomato", alpha=0.4) + 
+    xlab("Location")+
+  ylab("Yield estimate (bu/acre)")
+
+# Density plot for Yield values for Hampshire
+ggplot(subset(hampshire, Trait == "yield"), aes(x=Value)) +
+    geom_density(adjust=1.5, fill = "tomato") +
+  xlab("Yield estimate (bu/acre)")+
+    theme( legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      axis.ticks.x=element_blank())
+```
+
+## Pairs Plots for Traits in Hampshire
+```{r}
+data_wide <- spread(hampshire, Trait, Value) # convert data from long form to wide form
+head(data_wide)
+
+pairs(data_wide[,7:13])
+```
+
+## density and box plots for yield by Company
+```{r}
+# density plot
+ggplot(data=subset(hampshire, Trait == "yield"), aes(x=Value, group=Company)) +
+    geom_density(adjust=1.5, fill = "tomato") +
+    facet_wrap(~Company) +
+  xlab("Yield estimate (bu/acre)")+
+    theme( legend.position="none",
+      panel.spacing = unit(0.1, "lines"),
+      axis.ticks.x=element_blank())
+
+# box plot arranged by median values
+data_wide$Company = with(data_wide, reorder(Company, yield, median))
+ggplot(data_wide, aes(x=Company, y=yield)) + 
+    geom_boxplot(fill="tomato", alpha=0.4) + 
+    xlab("Company")+
+  ylab("Yield estimate (bu/acre)")+
+  theme(axis.text.x = element_text(angle = 90))+
+  coord_flip()
+```
+
+## Initial linear regression fit evaluation: Diagnostic Plots
+```{r}
+fit.Company  <- lm(yield ~ Company, data = data_wide)
+summary(fit.Company)
+plot(fit.Company) #check model diagnostics
+```
+
+## Initial linear regression fit evaluation: 2D scatterplots + density plots
+```{r}
+ggpairs(data_wide[, c(7:10,13)], aes(alpha = 0.4))
+```
